@@ -1,0 +1,13 @@
+package com.jaladhi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CustomerMartApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CustomerMartApplication.class, args);
+	}
+
+}

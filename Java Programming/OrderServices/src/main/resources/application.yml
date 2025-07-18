@@ -1,0 +1,17 @@
+
+server:
+  port: 9192
+  
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/test
+    username: root
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true 
+   
+    
